@@ -1,5 +1,5 @@
-@tool
 @icon("res://addons/match3_board/assets/board.svg")
+@tool
 class_name Match3Board extends Node2D
 
 class FallMovement:

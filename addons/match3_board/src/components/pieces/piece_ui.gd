@@ -1,5 +1,5 @@
-class_name PieceUI extends Node2D
 @icon("res://addons/match3_board/assets/piece_ui.svg")
+class_name PieceUI extends Node2D
 
 signal selected
 signal unselected

@@ -1,5 +1,5 @@
-class_name PieceWeight extends Resource
 @icon("res://addons/match3_board/assets/piece.svg")
+class_name PieceWeight extends Resource
 @export var weight: float = 1.0
 @export var piece_scene: PackedScene
 

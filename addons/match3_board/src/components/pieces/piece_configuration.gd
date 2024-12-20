@@ -1,5 +1,5 @@
-class_name PieceConfiguration extends Resource
 @icon("res://addons/match3_board/assets/piece.svg")
+class_name PieceConfiguration extends Resource
 
 @export var id: StringName
 @export var name: String
