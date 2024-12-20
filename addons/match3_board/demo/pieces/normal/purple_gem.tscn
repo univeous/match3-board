@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://ik43i2q0pkdu"]
+
+[ext_resource type="Script" path="res://addons/match3_board/src/components/pieces/piece_ui.gd" id="1_x2gch"]
+[ext_resource type="Script" path="res://addons/match3_board/src/components/pieces/piece_configuration.gd" id="2_glb3a"]
+[ext_resource type="Texture2D" uid="uid://frw370xlyi52" path="res://addons/match3_board/src/debug_ui/preview_pieces/purple_gem.png" id="3_akhy1"]
+
+[sub_resource type="Resource" id="Resource_j4j4d"]
+script = ExtResource("2_glb3a")
+id = &"purple_gem"
+name = "Purple gem"
+description = ""
+shape = "purple"
+can_be_actions = Dictionary[String, bool]({
+"consumed": true,
+"moved": true,
+"shuffled": true,
+"swapped": true
+})
+
+[node name="PurpleGem" type="Node2D" node_paths=PackedStringArray("sprite")]
+script = ExtResource("1_x2gch")
+sprite = NodePath("Sprite2D")
+piece_definition = SubResource("Resource_j4j4d")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("3_akhy1")

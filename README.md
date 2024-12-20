@@ -53,7 +53,7 @@
 # 📦 Installation
 
 1. [Download Latest Release](https://github.com/ninetailsrabbit/match3-board/releases/latest)
-2. Unpack the `ninetailsrabbit.match3_board` folder into your `/addons` folder within the Godot project
+2. Unpack the `match3_board` folder into your `/addons` folder within the Godot project
 3. Enable this addon within the Godot settings: `Project > Project Settings > Plugins`
 
 To better understand what branch to choose from for which Godot version, please refer to this table:
