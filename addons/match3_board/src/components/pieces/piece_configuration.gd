@@ -22,5 +22,5 @@ func match_with(other_piece: PieceConfiguration) -> bool:
 #endregion
 
 
-func can_be(action: String) -> bool:
-	return can_be_actions.get(action, false)
+func can_be(action: String, default:=false) -> bool:
+	return can_be_actions.get(action, default)
